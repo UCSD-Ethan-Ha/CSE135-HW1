@@ -6,7 +6,7 @@ We just followed the steps for post-receive on the website provided. We had to d
 <ins>Step 5: </ins>
 After doing some research, we enabled the mod deflate and proceeded with enabling the compression. To test our results, we accessed the website and checked inspected element > Network > Html file > Headers, where we saw that the content was encoded using gzip and that there was definitely compression going on.
 
-<ins>Step 6: </>
+<ins>Step 6: </ins>
 We modified the security.conf file with the specified directives, and verified the header change, as this approach goes beyond simply limiting information disclosure (like ServerTokens alone would do) to actively customize the Server header as required, chaging the configuration to
 
 SecRuleEngine on 
