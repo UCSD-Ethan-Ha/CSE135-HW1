@@ -10,7 +10,9 @@ After doing some research, we enabled the mod deflate and proceeded with enablin
 We modified the security.conf file with the specified directives, and verified the header change, as this approach goes beyond simply limiting information disclosure (like ServerTokens alone would do) to actively customize the Server header as required, chaging the configuration to
 
 SecRuleEngine on 
+
 ServerTokens Full
+
 SecServerSignature "CSE135 Server"
 
 # EC
